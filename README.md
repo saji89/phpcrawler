@@ -4,6 +4,7 @@ A project to parse a website and get the count of all `<img>` tags in each link,
 
 ## Requirements
 
+- PHP > 5.4
 - Mysql
 - PHPUnit
 
