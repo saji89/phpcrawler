@@ -5,7 +5,6 @@
      * @package phpcrawler
      */
 
-    namespace std;
     namespace phpcrawler;
 
     class Crawler
@@ -38,7 +37,7 @@
             $linksList = $this->getAllLinksInDatabase();
 
             echo "Finding image count in each link, this might take some time, depending "
-            ."on number of URL's to be parsed.\n\n";
+                . "on number of URL's to be parsed.\n\n";
 
             echo "Please wait while the crawler is processing.\n\n";
 
@@ -310,7 +309,7 @@
         private function iterateOverLinks($linksList)
         {
             foreach ($linksList as $k => $link) {
-                if( $k > MAXURLCOUNT) {
+                if ($k > MAXURLCOUNT) {
                     return;
                 }
 
