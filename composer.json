@@ -1,0 +1,28 @@
+{
+    "name": "phpcrawler",
+    "description": "A PHP based website crawler",
+    "version": "0.1.0",
+    "type": "project",
+    "keywords": [
+        "crawler",
+        "webcrawler"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+     },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    },
+    "autoload": {
+        "psr-0": { "": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Saji Nediyanchath",
+            "email": "saji89@gmail.com",
+            "homepage": "http://saji89.wordpress.com",
+            "role": "Developer"
+        }
+    ]
+}
